@@ -33,5 +33,13 @@ puts "She is #{ages[0]} years old"
 =begin
 Index position denotes the position of an element in an array.
 Counting from left to right it starts at 0, to call an element you state the variable
-and note the index position using square brackets [] 
+and note the index position using square brackets []
 =end
+
+#This calls the sort method on the prices array
+#It will sort the floats by smallest to largest
+prices.sort
+
+puts ""
+puts "An array of integers or floats can be more useful if it is sorted"
+puts "for examples #{prices} is a little harder to read than #{prices.sort}"
