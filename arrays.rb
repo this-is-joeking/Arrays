@@ -26,3 +26,12 @@ likes_coffee.shift
 #This calls the push method on the prices Array
 #It will add the listed element(s) to the end of the Array
 prices.push(1.23, 4.56, 7.89)
+
+
+puts "I have several family members, #{family_members[1]} is my sister"
+puts "She is #{ages[0]} years old"
+=begin
+Index position denotes the position of an element in an array.
+Counting from left to right it starts at 0, to call an element you state the variable
+and note the index position using square brackets [] 
+=end
